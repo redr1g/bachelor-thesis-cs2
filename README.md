@@ -6,7 +6,7 @@ An analysis of price predictability in the virtual goods market based on market 
 
 📄 **Thesis PDF:** [thesis.pdf](./thesis.pdf)
 👤 **Author:** Taras Martsin
-🎓 **Supervisor:** Roman Mischenko
+🎓 **Supervisor:** Roman Mishchenko
 
 ---
 
