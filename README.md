@@ -31,7 +31,7 @@ This work investigates whether prices of virtual in-game items exhibit learnable
 ```
 ├── MAIN.ipynb           # Full pipeline: gating + 14-model benchmark
 ├── data/
-│   └── README.md        # Dataset download instructions
+│   └── README.md        # Dataset, models download instructions
 ├── thesis.pdf           # Final thesis document
 ├── requirements.txt
 └── README.md

@@ -38,3 +38,26 @@ data/
 ```
 
 Update the path in `MAIN.ipynb` (cell 1) if you store the data elsewhere.
+
+# Models
+
+The main experiments (according to Table 6.4) are stored as models on Huggingface. 
+
+## Download
+
+**Huggingface:** [redr1g/models](https://huggingface.co/redr1g/final-thesis-experiments)
+
+
+## Inference
+
+```python
+from huggingface_hub import hf_hub_download
+from tensorflow.keras.models import load_model
+
+# Load the best model
+model_path = hf_hub_download(
+    repo_id="redr1g/final-thesis-experiments", 
+    filename="lstm_final_kneedle.keras"
+)
+model = load_model(model_path)
+```
